@@ -1,5 +1,5 @@
 #input-area {
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
     text-align: center;
     padding-top: 30px;
@@ -27,7 +27,7 @@
 }
 
 #movie_list {
-    width: 1500px;
+    width: 1000px;
     margin: 0 auto;
     text-align: center;
     padding-top: 30px;
@@ -36,13 +36,12 @@
 
 ul {
     list-style-type: none;
-    font-color: #B0E6FF;
 }
 
 li {
     font-size: 200%;
     border: 1px solid #FDD017;
-    border-bottom-width: 0px;
+    border-bottom-width:0px;
     padding: 10px 0 10px;
 }
 
@@ -58,11 +57,10 @@ a:visited {
 a:hover {
     color: #E56717;
 }
-
-#bottom-line {
-    width: 1459px;
+#bottom-line{
+    width: 959px;
     margin-top: -16px;
-    margin-left: 40px;
+    margin-left:40px;
     background-color: #FDD017;
     border: 0 #FDD017;
     height: 1px;
