@@ -1,0 +1,69 @@
+#input-area {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid beige;
+}
+
+#movie_name_textbox {
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial SansSerif;
+    border: 10px solid aliceblue;
+}
+
+#search_button {
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    border: 2px solid #a1a1a1;
+    background: #FCCE87;
+    border-radius: 25px;
+}
+
+#movie_list {
+    width: 1500px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+ul {
+    list-style-type: none;
+    font-color: #B0E6FF;
+}
+
+li {
+    font-size: 200%;
+    border: 1px solid #FDD017;
+    border-bottom-width: 0px;
+    padding: 10px 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #38ACEC;
+}
+
+a:visited {
+    color: #38ACEC;
+}
+
+a:hover {
+    color: #E56717;
+}
+
+#bottom-line {
+    width: 1459px;
+    margin-top: -16px;
+    margin-left: 40px;
+    background-color: #FDD017;
+    border: 0 #FDD017;
+    height: 1px;
+}
