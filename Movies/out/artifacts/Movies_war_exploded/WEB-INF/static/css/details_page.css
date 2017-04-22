@@ -1,0 +1,124 @@
+body {
+    font-family: Verdana;
+    color: #fff;
+}
+
+#title_window {
+    width: 800px;
+    background-color: #333333;
+    margin: 0 auto;
+    height: 160px;
+}
+
+#title_window_upper_bar {
+    padding-left: 20px;
+    padding-top: 16px;
+    padding-bottom: 25px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+#cast_crew_link {
+    padding-right: 15px;
+    border-right: 1px solid #ffffff;
+}
+
+#user_review_link {
+    padding-left: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #5DADE2;
+}
+
+#movie_title_container {
+    width: 470px;
+    float: left;
+    margin-top: 0px;
+}
+
+#movie_title {
+    font-size: 150%;
+    margin: 0px;
+    margin-left: 20px;
+}
+
+#release_year {
+    font-size: 20px;
+}
+
+#rating-window {
+    float: right;
+    width: 95px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+#rating-star {
+    height: 24px;
+    width: 24px;
+    float: left;
+    margin: 2px 0px 0px;
+    padding-right: 5px;
+}
+
+#rating {
+    float: left;
+    margin: 0px;
+    font-size: 24px;
+
+}
+
+#total-rating {
+    float: left;
+    font-size: 10px;
+    margin: 14px 0px 0px;
+}
+
+.clear {
+    clear: left;
+}
+
+#total-reviews {
+    margin: 0px;
+    float: right;
+    font-size: 10px;
+    padding-right: 9px;
+}
+
+#is_adult {
+    float: left;
+
+}
+
+#duration {
+    float: left;
+}
+
+#genre_list {
+    float: left;
+}
+
+#release_date {
+    float: left;
+}
+
+.lower_menu {
+    border-right: 1px solid #ffffff;
+    padding-right: 15px;
+    padding-left: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+#release_date {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 10px;
+    font-size: 15px
+}
