@@ -38,7 +38,7 @@ public class MainController {
 
     @RequestMapping(value = "/movie/name/{movie_name}", method = RequestMethod.GET)
     public String getMovieJSON(@PathVariable("movie_name") String movieName) {
-        movieName = movieName.replace(" ", "%20");
+        movieName = movieName.replace(" ", "%20"); // replace all the blank spaces with %20 in the URL
         URL url = UrlHelper.getMovieListURL(movieName);
         String json = new HttpHelper(url).getJSON();
         System.out.println(json);

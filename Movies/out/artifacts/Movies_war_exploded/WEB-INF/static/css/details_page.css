@@ -2,12 +2,14 @@ body {
     font-family: Verdana;
     color: #fff;
 }
-
+#content{
+    width: 850px;
+    margin:0 auto;
+}
 #title_window {
     width: 800px;
     background-color: #333333;
-    margin: 0 auto;
-    height: 160px;
+
 }
 
 #title_window_upper_bar {
@@ -15,7 +17,9 @@ body {
     padding-top: 16px;
     padding-bottom: 25px;
 }
-
+#title_window_lower{
+    width:600px;
+}
 a {
     text-decoration: none;
     font-size: 13px;
@@ -38,6 +42,7 @@ a:hover {
 
 #movie_title_container {
     width: 470px;
+    height: 100px;
     float: left;
     margin-top: 0px;
 }
@@ -121,4 +126,26 @@ a:hover {
     padding-left: 15px;
     margin-top: 10px;
     font-size: 15px
+}
+#poster-container{
+    width:182px;
+    height: 268px;
+    float: left;
+}
+
+#description-container{
+    width:592px;
+    height: 268px;
+    background-color: #5DADE2;
+    margin-left: 10px;
+    float: left;
+    padding-left: 16px;
+    font-size: 12px;
+}
+#description{
+    text-align: left;
+    width: 480px;
+}
+.bold_text{
+    font-weight:bold;
 }
