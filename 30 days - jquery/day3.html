@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Day 2</title>
+    <style type="text/css">
+    .container {
+        color: green;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to My Website</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>
+                <ul>
+                    <li>item 3</li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="emphasis">
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>
+                <ul>
+                    <li>First child</li>
+                    <li>item 3</li>
+                </ul>
+            </li>
+            <li>Last child</li>
+        </ul>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        // $('ul:first').addClass("emphasis");
+        // $("ul:first").text = "Added by jQuery";
+        // $("p:odd").text("The last p element.");
+        // $("li:first-child").addClass("emphasis"); //the li elements who are the first child of their parent
+        // $("li:last-child").addClass("emphasis");
+        // $("li:first-of-type").addClass("emphasis");
+        // $("p:last-of-type").addClass("emphasis");
+        // $("p:nth-child(1)").addClass("emphasis");
+        // $("p:nth-last-child(3)").addClass("emphasis");
+        // $("div > p").addClass("emphasis"); // all p elements which are the direct child of 
+        // $("div.container p").addClass("emphasis"); // all p elements which are descendents of div
+        // $("div.container p:eq(0)").addClass("emphasis");
+
+        // $("ul.emphasis").children("li").css("color","green"); // direct children
+        // $("ul.emphasis").children("li")
+        // 				.eq(1)
+        // 				.text("Added with jQuery");
+
+        $('li').parents("div.container").removeClass("container");
+    });
+    </script>
+</body>
+
+</html>

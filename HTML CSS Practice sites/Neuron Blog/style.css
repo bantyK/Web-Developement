@@ -1,0 +1,100 @@
+.content{
+	padding-top: 10px;
+	width: 1140px;
+	margin: 0 auto;
+}
+/* header styling starts*/
+.header{
+	
+}
+.header-image{
+	width: 265px;
+	float: left;
+	margin-top: 20px;
+}
+.image-under-text{
+	color: #999999;
+	margin-left: 10px;
+}
+.header-buttons{
+	font-family: Helvetica;
+	float: right;
+	padding-top: 45px;
+}
+
+.header-button{
+	font-size: 16px;
+	color: #339999;
+	border-color: #339999;
+	padding: 10px;
+	margin-right: 13px;
+}
+.header-button:hover{
+	background-color: white;
+	color: #CC6600;
+	border-color: #CC6600;
+}
+.clear{
+	clear: both;
+}
+#green-horizontal-line{
+	border-color: #339999;
+}
+/* header styling ends*/
+
+.intro-text-container{
+	
+}
+h1{
+	padding-top: 15px;
+}
+.intro-para{
+	font-size: 14px;
+	width: 555px;
+	line-height: 20px;
+	font-family: Helvetica;
+}
+
+.body-image{
+	width:1140px;
+}
+
+.lower-section{
+	margin-top: 20px;
+}
+.social-container{
+	width: 600px;
+	float: left;
+}
+.lower-section-para{
+	width: 600px;
+}
+.lower-section-button-container{
+	padding-top: 20px;
+}
+.lower-section-button{
+	font-size: 18px;
+	margin-right: 17px;
+	padding: 10px;
+}
+.social-container{
+	
+}
+.lower-image{
+	width: 250px;
+	height: 250px;
+	margin-left: 9px;
+	margin-right: 9px;
+}
+.footer-image{
+	width: 260px;
+	padding-top: 20px;
+	margin-right: 20px;
+}
+a{
+	color: #339999;
+}
+a:hover{
+	text-decoration: none;
+	color: #CC6600;
+}
