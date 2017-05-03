@@ -23,10 +23,10 @@ public class HttpHelper {
             HttpURLConnection connection = (HttpURLConnection) this.url.openConnection();
             connection.setRequestMethod("GET");
             int responseCode = connection.getResponseCode();
-            if(responseCode == HttpURLConnection.HTTP_OK){
+            if (responseCode == HttpURLConnection.HTTP_OK) {
                 BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
                 String line = "";
-                while((line= bufferedReader.readLine()) != null){
+                while ((line = bufferedReader.readLine()) != null) {
                     builder.append(line);
                 }
                 bufferedReader.close();
@@ -37,5 +37,7 @@ public class HttpHelper {
             e.printStackTrace();
         }
         return builder.toString();
+
     }
+
 }
