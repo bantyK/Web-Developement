@@ -1,0 +1,359 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: open sans;
+}
+
+div.header {
+    height: 800px;
+    background-image: url("http://members.madasafish.com/~cj_whitehound/Fanfic/map_of_Hogwarts/artwork/mountain_sunset.jpg");
+    background-size: cover;
+}
+
+div.header-menu {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+div.header-menu-section-left {
+    width: 150px;
+    height: 30px;
+    float: left;
+    margin-left: 130px;
+    margin-top: 16px;
+}
+
+#glyphicon-symbol {
+    width: 20px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.7);
+    padding-right: 20px;
+}
+
+#logo-text {
+    color: rgba(255, 255, 255, 0.7);
+    letter-spacing: 9px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.header-menu-section-right {
+    width: 400px;
+    height: 20px;
+    margin-top: 16px;
+    margin-right: 100px;
+    float: right;
+}
+
+.header-menu-section-right ul {
+    list-style: none;
+}
+
+.header-menu-section-right ul li {
+    float: left;
+    padding-right: 30px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#green-li {
+    color: #9BCD32;
+}
+
+.clear {
+    clear: both;
+}
+
+.header a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.header a:hover {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+#big-header {
+    font-size: 100px;
+    margin-top: 230px;
+    font-weight: 300;
+    margin-left: 325px;
+    padding: 0;
+    color: #fff;
+}
+
+#header-para {
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 420px;
+    font-size: 18px;
+    font-weight: 300;
+    padding-bottom: 60px;
+}
+
+#engage-now-link {
+    margin-left: 630px;
+}
+
+.btn-links {
+    border-radius: 30px;
+    padding: 20px 30px 20px 30px;
+    background-color: #9BCD32;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+a#engage-now-link:hover {
+    background-color: #32CD32;
+}
+
+.row-1 {
+    height: 320px;
+    background-color: #9BCD32;
+}
+
+.glyphicon-apple {
+    font-size: 62px;
+    color: #ffffff;
+    margin-top: 72px;
+    margin-left: 710px;
+}
+
+#row-1-para {
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    margin-left: 375px;
+}
+
+#row-1-para-2 {
+    text-align: center;
+    width: 695px;
+    margin-left: 385px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.row-2 {
+    height: 600px;
+}
+
+.row-2-left {
+    width: 570px;
+    height: 390px;
+    float: left;
+}
+
+#row-2-img {
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 150px;
+    border-radius: 50%;
+}
+
+.row-2-right {
+    width: 540px;
+    height: 270px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 130px;
+}
+
+.row-2-right h2 {
+    font-size: 40px;
+    font-weight: 500;
+    font-weight: normal;
+}
+
+#row-2-para {
+    width: 530px;
+    font-size: 21px;
+    font-weight: 300;
+    color: #777777;
+    padding-bottom: 37px;
+}
+
+#classify {
+    text-decoration: none;
+}
+
+a#classify:hover {
+    background-color: #32CD32;
+    color: #ffffff;
+}
+
+.row-3 {
+    height: 550px;
+    background-color: #222222;
+}
+
+.row-3-left {
+    width: 530px;
+    height: 240px;
+    margin-left: 150px;
+    padding-top: 130px;
+    float: left;
+}
+
+.row-3-left h2 {
+    color: #ffffff;
+}
+
+.row-3-left p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 21px;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+
+.row-3-left a {
+    background-color: rgba(255, 255, 255, 1);
+    color: #000;
+    padding: 20px 30px 20px 30px;
+    border-radius: 30px;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.row-3-left a:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    color: #EEEEEE;
+    color: #000;
+}
+
+.row-3-right {
+    width: 500px;
+    float: right;
+    margin-top: 100px;
+    margin-right: 200px;
+}
+
+#row-3-img {
+    width: 560px;
+    border-radius: 50%;
+}
+
+.row-4 {
+    height: 200px;
+}
+
+.row-4-img-1 {
+    width: 475px;
+    height: 200px;
+    background-image: url("https://cdn.shopify.com/s/files/1/0533/2089/files/how-to-write-a-design-case-study_large.jpg?1313564285467785263");
+    float: left;
+}
+
+.row-4-img-2 {
+    width: 475px;
+    height: 200px;
+    background-image: url("https://il9.picdn.net/shutterstock/videos/4826771/thumb/1.jpg");
+    float: left;
+}
+
+.row-4-img-3 {
+    width: 475px;
+    height: 200px;
+    background-image: url("http://i1.wp.com/static.web-backgrounds.net/uploads/2012/08/City_Landscape_Background.jpg");
+    float: left;
+}
+
+.row-4-h3 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+}
+
+.row-5 {
+    height: 300px;
+}
+
+.glyphicon-pushpin {
+    color: #9ACD32;
+    font-size: 32px;
+}
+
+.row-5 span {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#row-5-h3 {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#row-5-para {
+    font-size: 21px;
+    font-weight: 300;
+    color: #777;
+    text-align: center;
+    width: 1115px;
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+#row-5-a {
+    text-decoration: none;
+    color: #ffffff;
+    width:180px;
+    margin:20px auto 20px;
+    display: block;
+    text-align: center;
+    padding: 16px 26px 16px 26px;
+}
+#row-5-a:hover{
+    background-color: #32CD32;
+}
+.row-6{
+    height: 420px;
+    background-color: #9ACD32;
+}
+.row-6-container{
+    width: 200px;
+    height: 210px;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 25%;
+}
+.row-6 span{
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    display: block;
+}
+#row-6-h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    display: block;
+    margin:auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.phone{
+    font-size: 22px;
+    color: #ECFDFF;
+    text-align: center;
+    display: block;
+    padding-top: 15px;
+}
+.footer{
+    height: 125px;
+}
+.footer p{
+    text-align: center;
+    display: block;
+    margin: auto;
+    line-height: 125px;
+    font-size: 120%;
+}
