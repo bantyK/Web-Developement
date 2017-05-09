@@ -47,4 +47,154 @@ strong{
 #logo{
 	width: 200px;
 	height: 150px;
+	padding-bottom: 10px;
+	margin: auto;
+	display: block;
+}
+#testimonial_img{
+	width: 30px;
+	height: 30px;
+}
+header#main-header{
+	border-bottom: 4px solid #4EA0D8; 
+}
+#main-text{
+	text-align: center;
+	color: #333;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+#sub-1{
+	float: left;
+	width:48%;
+}
+
+#sub-2{
+	width: 48%;
+	float: right;
+}
+.points  li{
+	margin-bottom: 30px;
+}
+.points img{
+	margin-right: 7px;
+}
+.points h4{
+	padding-top: 5px;
+}
+
+#contact-form{
+	padding: 10px 15px 15px 15px;
+	border: 4px solid #4EA0D8;
+	border-radius: 10px;
+	-webkit-padding-bottom: 10px;
+	-moz-padding-bottom: 10px;
+	overflow: auto;
+	background: #F4F4F4;
+	width: 70%;
+}
+
+.content-header{
+	border-bottom: 1px solid #DDD;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+}
+
+.content-footer{
+	border-top: 1px solid #DDD;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+}
+
+#contact-form div{
+	margin-bottom: 20px;
+}
+
+#contact-form label{
+	display: inline-block;
+	width: 100px;
+	font-weight: bold;
+}
+
+#contact-form input[type="text"], #contact-form input[type="email"]{
+	border: 1px solid #CCC;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	height: 25px;
+	width: 65%;
+}
+
+#contact-form input[type="submit"]{
+	padding: 12px 17px;
+	color: white;
+	background: #FA6E3E;
+	border: 0;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	float: right;
+	display: block;
+}
+
+#contact-form input[type="submit"]:hover{
+	background: #D55427;
+	cursor: pointer;
+}
+
+#testimonial{
+	margin: 40px 0;
+	font-style: italic;
+	color: #666;
+}
+
+#testimonial_img{
+	float: left;
+	margin-right: 20px;
+}
+
+#main-footer{
+	border-top: 1px solid #ccc;
+	color: #aaa;
+	text-align: center;
+}
+
+@media(max-width: 960px){
+	#container{
+		width: 80%;
+	}
+	h1{
+		font-size: 33px;
+	}
+	#sub-1, #sub-2{
+		float: none;
+		width: 100%;
+	}
+	
+	.points li{
+		background: #EEE;
+		padding: 8px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		
+	}
+	
+	.points img{
+		margin-top: 7px;
+	}
+	
+	#testimonial_img{
+		float: none;
+		display: block;
+		margin: auto;
+		margin-bottom: 20px;
+	}
+}
+
+@media(max-width: 568px){
+	h1{
+		font-size: 22px;
+	}
 }
