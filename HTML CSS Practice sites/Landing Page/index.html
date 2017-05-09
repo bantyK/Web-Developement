@@ -10,8 +10,8 @@
 	
 	<body>
 		<div id="container">
-			<header>
-				<img src="https://stocklogos.com/sites/default/files/tumblr_lpdbd7bulm1qfw54v.jpg">
+			<header id="main-header">
+				<img id="logo" src="https://stocklogos.com/sites/default/files/tumblr_lpdbd7bulm1qfw54v.jpg">
 			</header>
 			<div id="main-text">
 				<h1>Welcome to Our Landing Page</h1>
@@ -21,25 +21,75 @@
 			<div id="sub-1">
 				<ul class="points">
 					<li>
-						<img src="http://clipartall.com/subimg/blue-number-one-clip-art-at-clker-com-vector-clip-art-online-clipart-1-600_600.png" alt="point1">
+						<img class="numbers" src="http://clipartall.com/subimg/blue-number-one-clip-art-at-clker-com-vector-clip-art-online-clipart-1-600_600.png" alt="point1">
 						<h4>First Point </h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Vivamus sodales, lacus id molestie venenatis, nisl felis ultrices orci.</p>	
 					</li>
 					<li>
-						<img src="https://www.astrogle.com/images/2014/09/number-210.png" alt="point2">
+						<img class="numbers" src="https://www.astrogle.com/images/2014/09/number-210.png" alt="point2">
 						<h4>Second Point </h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Vivamus sodales, lacus id molestie venenatis, nisl felis ultrices orci.</p>	
 					</li>
 					<li>
-						<img src="http://images.clipartpanda.com/number-three-clipart-number-3-in-light-blue-rounded-square-md.png" alt="point3">
+						<img class="numbers" src="http://images.clipartpanda.com/number-three-clipart-number-3-in-light-blue-rounded-square-md.png" alt="point3">
 						<h4>Third Point </h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Vivamus sodales, lacus id molestie venenatis, nisl felis ultrices orci.</p>	
 					</li>
 				</ul>
+				
+				<footer class="content-footer">
+					<h3>More About Us</h3>
+					<p> Mauris porttitor sem id ipsum fringilla bibendum. Nunc quam risus, condimentum vel posuere eu, molestie vitae dolor.</p>
+				</footer>
 			</div>
 			
 			<div id="sub-2">
+				<form id="contact-form">
+					<header id="content-header">
+						<h3>Getting Started</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus</p>
+					</header>
+					
+					<div>
+						<label>Name*</label>
+						<input type="text">
+					</div>
+					
+					<div>
+						<label>Email*</label>
+						<input type="email">
+					</div>
+					<div>
+						<label>Company</label>
+						<input type="text">
+					</div>
+					<div>
+						<label>Phone</label>
+						<input type="text">
+					</div>
+					<div>
+						<em>* Required Fields</em>
+						<input type="submit" value="Get In Touch">
+					</div>
+					
+					<div class="clearfix"></div>
+					
+					<div id="content-footer">
+						<p>We Would never use any of the subscriber personal information for anything unspecified</p>
+					</div>
+				</form>
 			</div>
+			<div class="clearfix"></div>
+			
+			<div id="testimonial">
+				<img src="http://alphabiocom.com/wp-content/uploads/2014/12/fusionfactor_testimonial.jpg" alt="testimonial">
+				<blockquote>
+					Pellentesque eleifend tellus ut metus posuere convallis. Sed finibus magna in tellus imperdiet tristique. Integer et dignissim metus. Vestibulum efficitur mauris lorem, eu viverra ante dignissim vitae. Donec placerat ex eu cursus aliquam.- <strong>John Doe from Some Company</strong>
+				</blockquote>
+			</div>
+			<footer id="main-footer">
+				<p>Copyright &copy; 2017</p>
+			</footer>
 		</div>
 	</body>
 </html>

@@ -1,3 +1,50 @@
 body{
 	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	line-height: 1.5em;
+}
+
+#container{
+	width: 70%;
+	margin: 10px auto;           
+	background: #FFF;
+	overflow: auto;
+}
+
+p{
+	margin: 10px 0;
+	line-height: 1.5em;
+}
+
+h1{
+	font-size: 39px;
+	font-weight: bold;
+	margin: 20px 0px 10px 0px;
+	line-height: 1.2em;
+}
+
+h3{
+	font-size: 22px;
+	margin: 10px 0;
+}
+
+h4{
+	font-size: 19px;
+	margin: 10px 0;
+}
+
+strong{
+	font-weight: bold;
+}
+
+.clearfix{
+	clear: both;
+}
+.numbers{
+	width: 30px;
+	height: 30px;
+}
+#logo{
+	width: 200px;
+	height: 150px;
 }
