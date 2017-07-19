@@ -13,15 +13,18 @@ export class AppComponent {
 
   private wikiData: WikiData[] = [];
 
-  @ViewChild ('list') resultList;
+  private showLogo = false;
+
+  @ViewChild ('logoImage') logo;
 
   constructor(private service: WikipediaService) {}
 
   getWikiData() {
-    this.service.getWikipediaData(this.search_key)
-                .subscribe(data => {
-                  this.parseData(data);
-                });
+    this.showLogo = true;
+    // this.service.getWikipediaData(this.search_key)
+    //             .subscribe(data => {
+    //               this.parseData(data);
+    //             });
   }
 
   parseData(jsonData: string) {

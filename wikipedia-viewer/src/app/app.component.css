@@ -10,7 +10,15 @@ div.container {
     margin: 0 auto;
 }
 
-#logo {
+#main_heading {
+    font-size: 300%;
+    font-family: 'Amaranth', sans-serif;
+    text-align: center;
+    padding: 0;
+    padding-top: 20px;
+}
+
+.logo {
     width: 300px;
     height: 400px;
     display: block;
@@ -18,12 +26,6 @@ div.container {
     padding: 0;
 }
 
-#main_heading {
-    font-size: 300%;
-    font-family: 'Amaranth', sans-serif;
-    text-align: center;
-    padding: 0;
-}
 #search_box {
     width: 500px;
     height: 50px;
@@ -40,4 +42,8 @@ div.container {
     font-family: Arial, Helvetica, sans-serif;
     display: block;
     margin: 0 auto;
+}
+
+.hideLogo {
+    display: none;
 }
