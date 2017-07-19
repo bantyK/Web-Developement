@@ -10,7 +10,7 @@ import { WikiData } from './wikipedia_data';
 export class AppComponent {
 
   private search_key: string;
-  
+
   private wikiData: WikiData[] = [];
 
   @ViewChild ('list') resultList;

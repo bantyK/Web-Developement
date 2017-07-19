@@ -1,8 +1,15 @@
-<input id="search_box" [(ngModel)]="search_key"/>
-<button (click)="getWikiData()">Search</button>
-
-<div *ngFor="let data of wikiData">
-  {{data.title}}
-  {{data.description}}
-  {{data.link}}
-</div>
+<body>
+  <div class="container">
+    <h1 id="main_heading"> Wikipedia Viewer</h1>
+    <img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Wikipedia-logo-v2-en.svg/1200px-Wikipedia-logo-v2-en.svg.png"/>
+    <input id="search_box" [(ngModel)]="search_key" />
+    <br>
+    <button id="search_button" (click)="getWikiData()">Search</button>
+    
+    
+    
+    <div *ngFor="let data of wikiData">
+      {{data.title}} {{data.description}} {{data.link}}
+    </div>
+  </div>
+</body>
