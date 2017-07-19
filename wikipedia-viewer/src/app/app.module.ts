@@ -4,10 +4,12 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { WikipediaService } from './http-service.service';
 import { AppComponent } from './app.component';
+import { GstComponent } from './gst/gst.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GstComponent
   ],
   imports: [
     BrowserModule,

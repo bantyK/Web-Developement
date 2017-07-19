@@ -1,2 +1,8 @@
 <input id="search_box" [(ngModel)]="search_key"/>
 <button (click)="getWikiData()">Search</button>
+
+<div *ngFor="let data of wikiData">
+  {{data.title}}
+  {{data.description}}
+  {{data.link}}
+</div>
