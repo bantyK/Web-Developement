@@ -1,8 +1,2 @@
-<form [formGroup]="searchForm" (ngSubmit)="getWikiData($event)">
-  <p>
-    <label>Search : </label>
-    <input formControlName="search_key" type="text">
-  </p>
-
-  <button type="submit">Search</button>
-</form>
+<input id="search_box" [(ngModel)]="search_key"/>
+<button (click)="getWikiData()">Search</button>

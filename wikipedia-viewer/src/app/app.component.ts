@@ -7,15 +7,13 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  private search_key: string;
 
-  public searchForm = new FormGroup({
-    search_key: new FormControl('search_key')
-  });
+  private search_key: string;
 
   constructor(private service: WikipediaService){}
 
-  getWikiData(event) {
-    console.log(this.searchForm.value.search_key);
+  getWikiData() {
+    this.service.getWikipediaData(this.search_key)
+                .subscribe(data => console.log(data));
   }
 }
